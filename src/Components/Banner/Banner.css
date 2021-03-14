@@ -1,0 +1,28 @@
+.volunteer{
+    /* margin-top:50%; */
+}
+.volunteer-item{
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.teer-item img{
+    margin-bottom:-5px;
+}
+.volunteer-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(70, 30, 30, 0.8);
+    transition:.3s;
+}
+.volunteer-overlay h4{
+    text-transform:uppercase;
+    color: #fff;
+    padding: 20px 30px;
+}
+.volunteer-item:hover .volunteer-overlay{
+    top: 70%;
+}
